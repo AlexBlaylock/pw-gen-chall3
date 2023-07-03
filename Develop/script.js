@@ -3,15 +3,31 @@ var generateBtn = document.querySelector("#generate");
 // global announcing what characters I want to allow for the password generation. 
 var lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
 var uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-var numericChars = "0123456789";
+var numberChars = "0123456789";
 var specialChars = "!@#$%^&*()_+~`|}{[]:;?><,./-=";
+var emptyPool = ""
 
 
 function generatePassword() {
-var pwLength = prompt("Enter password length. 8(min) to 128(max).")
-if
+let pwLength = prompt("Enter password length. 8(min) to 128(max).")
+
+if (pwLength < 8 || pwLength > 128) {
+alert("Please enter a password length that is 8(min) to 128(max)!")
+}
+
+let lowercaseConfirm = confirm("Confirm to innclude lowercase letters?")
+let uppercaseConfirm = confirm("Confirm to include uppercase letters?")
+let numberConfirm = confirm("Confirm to include numbers?")
+let specialConfirm = confirm("Confirm to include special characters.")
+
+// Alerts if you select none of the confirm options.
+if (!lowercaseConfirm && !uppercaseConfirm && !numberConfirm && !specialConfirm){
+  alert("You need to select at least one character type!")
+}
+
 
 }
+
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
