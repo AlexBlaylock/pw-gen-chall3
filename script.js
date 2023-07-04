@@ -1,6 +1,6 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
-// global announcing what characters I want to allow for the password generation. 
+// announcing what characters I want to allow for the password generation. 
 var lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
 var uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var numberChars = "0123456789";
