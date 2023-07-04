@@ -25,6 +25,21 @@ if (!lowercaseConfirm && !uppercaseConfirm && !numberConfirm && !specialConfirm)
   alert("You need to select at least one character type!")
 }
 
+if (lowercaseConfirm) {
+  emptyPool += lowercaseChars
+}
+
+if (uppercaseConfirm) {
+  emptyPool += uppercaseChars
+}
+
+if (numberConfirm) {
+  emptyPool += numberChars
+}
+
+if (specialConfirm) {
+  emptyPool += specialChars
+}
 
 }
 
