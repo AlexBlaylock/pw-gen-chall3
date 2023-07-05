@@ -4,3 +4,9 @@ The outside purpose of this project is to generate a password that is (although 
 
 JavaScript was a language that I am weak in, it took me a lot of reading on https://developer.mozilla.org/en-US/ to catch up for time I missed in class. I believe that my project came out strong still and I'm proud of the work that I have done.
 
+Thank you to people who have helped me learn a lot while catching up, in particular:
+
+Nick Hanson
+Nate Master
+
+And of course my instructors, Tom Hearne and Matt Bronstein.
