@@ -12,10 +12,10 @@ Nate Master
 ![1st Screenshot](chall3ss.png)
 ![2nd Screenshot](chall3ss2.png)
 
-My Github Repo: 
+My Github Repo: https://github.com/AlexBlaylock/pw-gen-chall3
 
-My Github Page
-https://alexblaylock.github.io/pw-gen-chall3/
+My Github Page: https://alexblaylock.github.io/pw-gen-chall3/
+
 
 And of course my instructors, Tom Hearne and Matt Bronstein.
 
